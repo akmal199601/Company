@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/akmal199601/RiderProjects/practica/Company/Solution/Contracts/Contracts.csproj": {}
+  },
+  "projects": {
+    "/home/akmal199601/RiderProjects/practica/Company/Solution/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/Solution/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Contracts/Contracts.csproj",
+        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "outputPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/Repository.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/Repository.csproj"
+              },
+              "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/Services.csproj": {
+                "projectPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/Repository.csproj",
+        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "outputPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/Services.csproj",
+        "packagesPath": "/home/akmal199601/.nuget/packages/",
+        "outputPath": "/home/akmal199601/RiderProjects/practica/Company/Solution/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/akmal199601/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
