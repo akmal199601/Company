@@ -14,7 +14,7 @@ public class Users
     public DateTimeOffset? ResetTokenByLoginExpires { get; set; }
         
         
-    public virtual Role Role { get; set; }
+   // public virtual Role Role { get; set; }
     public virtual IEnumerable<Order> Orders { get; set; }
         
     public virtual IEnumerable<Otp> Otps { get; set; }

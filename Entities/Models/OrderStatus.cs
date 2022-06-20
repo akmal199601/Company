@@ -1,3 +1,5 @@
+using Entities.Enum;
+
 namespace Entities.Models;
 
 public class OrderStatus

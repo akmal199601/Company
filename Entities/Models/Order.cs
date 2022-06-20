@@ -1,3 +1,5 @@
+using Entities.Enum;
+
 namespace Entities.Models;
 
 public class Order
@@ -9,7 +11,7 @@ public class Order
     public OrderStatuses OrderStatusId { get; set; }
     public Guid PaymentTypeId { get; set; }
     public string Description { get; set; }
-    public virtual User User { get; set; }
+    public virtual Users User { get; set; }
     public virtual DeliveryType DeliveryType { get; set; }
     public virtual PaymentType PaymentType { get; set; }    
     public virtual OrderStatus OrderStatus { get; set; }

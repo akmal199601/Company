@@ -10,5 +10,5 @@ public class Otp
     public bool IsUsed { get; set; }
         
         
-    public virtual User User { get; set; }
+    public virtual Users User { get; set; }
 }
